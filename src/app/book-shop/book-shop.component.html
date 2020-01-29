@@ -1,0 +1,11 @@
+<div class="container border" style="margin-top:10px">
+	<div *ngIf="title">
+	<h3>	{{title}}</h3>
+	</div>
+  	<div class="nav justify-content-center" style="height:50px">
+	<div *ngFor="let book of items ">
+			<div class="nav-item"><a href="" class="nav-link">{{book.name}}</a>
+			</div>
+		</div>
+	</div>
+</div>
