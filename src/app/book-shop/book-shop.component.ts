@@ -8,7 +8,7 @@ import { Component, OnInit ,Input,Output} from '@angular/core';
 export class BookShopComponent implements OnInit {
 
 @Input() items:any;
-@Input() title:string;
+@Input() title:string; 
 
   constructor() { }
 

@@ -1,0 +1,8 @@
+<div class="container border" style="margin-top:10px">
+<div *ngFor="let title of items">
+  <h3 class="border nav" style="margin:10px;">{{title.title}}</h3>
+  <div class="nav-item" style="width:200px;" *ngFor="let item of title.item">
+<h5 class="nav-link"> {{item.name}}</h5>
+  </div>
+</div>
+</div>

@@ -35,14 +35,26 @@ export class AppComponent {
   ];
 
 paytmMall=[
-  {title:"Smartphones at Best Price Online"},
+  {title:"Smartphones at Best Price Online",
+  item:[{
+    name:"mobile"
+
+    },{
+    name:"mobile"
+
+  },
+  {
+    name:"mobile"
+
+  }],
+  },
   {title:"Fashion Offers"},
   {title:"Grocery Bestsellers"},
-  {title:"Travel"},
-  {title:"Entertainment"},
-  {title:"Gadget Zone"},
-  {title:"Paytm Money | Invest in Mutual funds"},
-  {title:"Appliances | Best Prices Online"},
+  // {title:"Travel"},
+  // {title:"Entertainment"},
+  // {title:"Gadget Zone"},
+  // {title:"Paytm Money | Invest in Mutual funds"},
+  // {title:"Appliances | Best Prices Online"},
 ];
 
 }
