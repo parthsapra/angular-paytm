@@ -19,7 +19,7 @@ export class AppComponent {
     { name: "Hotels" },
     { name: "Cars & Bikes" },
     { name: "Brand Vouchers" },
-    { name: "Amusement Park" },    
+    { name: "Amusement Park" }
   ];
 
   shoppingShortcuts = [
@@ -31,30 +31,20 @@ export class AppComponent {
     { name: "Home & Kitchen" },
     { name: "Mobiles" },
     { name: "Laptops" },
-    { name: "TVs & Appliances" },
+    { name: "TVs & Appliances" }
   ];
 
-paytmMall=[
-  {title:"Smartphones at Best Price Online",
-  item:[{
-    name:"mobile"
-
-    },{
-    name:"mobile"
-
-  },
-  {
-    name:"mobile"
-
-  }],
-  },
-  {title:"Fashion Offers"},
-  {title:"Grocery Bestsellers"},
-  // {title:"Travel"},
-  // {title:"Entertainment"},
-  // {title:"Gadget Zone"},
-  // {title:"Paytm Money | Invest in Mutual funds"},
-  // {title:"Appliances | Best Prices Online"},
-];
-
+  paytmMall = [
+    {
+      title: "Smartphones at Best Price Online",
+      item: [{ name: "mobile" }, { name: "mobile" }, { name: "mobile" }]
+    },
+    { title: "Fashion Offers" },
+    { title: "Grocery Bestsellers" }
+    // {title:"Travel"},
+    // {title:"Entertainment"},
+    // {title:"Gadget Zone"},
+    // {title:"Paytm Money | Invest in Mutual funds"},
+    // {title:"Appliances | Best Prices Online"},
+  ];
 }
